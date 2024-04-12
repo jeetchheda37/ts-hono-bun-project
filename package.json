@@ -1,0 +1,40 @@
+{
+  "name": "@jcsolutions1723/ts-hono-bun-project",
+  "version": "1.0.0",
+  "description": "A Boilerplate code for Typescript Bun with Hono project",
+  "main": "src/app.ts",
+  "dependencies": {
+    "hono": "^4.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --hot src/app.ts",
+    "prod": "bun run dist/output.js",
+    "build": "bun run esbuild.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeetchheda37/ts-hono-bun-project.git"
+  },
+  "keywords": [
+    "ts",
+    "hono",
+    "bun",
+    "backend",
+    "node",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Jeet Chheda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeetchheda37/ts-hono-bun-project/issues"
+  },
+  "homepage": "https://github.com/jeetchheda37/ts-hono-bun-project#readme",
+  "devDependencies": {
+    "@types/bun": "^1.0.12"
+  }
+}
