@@ -1,8 +1,9 @@
 {
   "name": "@jcsolutions1723/ts-hono-bun-project",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "A Boilerplate code for Typescript Bun with Hono project",
   "main": "src/app.ts",
+  "bin": "./bin/cli.js",
   "dependencies": {
     "hono": "^4.2.3"
   },
