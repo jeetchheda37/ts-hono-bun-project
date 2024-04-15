@@ -2,6 +2,9 @@ dist/
 node_modules
 package-lock.json
 .env
+.env.local
+.env.development
+.env.production
 .idea/
 bun.lockb
 bin/
